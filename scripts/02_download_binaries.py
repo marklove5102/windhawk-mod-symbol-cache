@@ -18,6 +18,8 @@ BINARY_MAX_AGE_DAYS_BEFORE_DELETION = 60
 NAMES_TO_ALLOW_404 = [
     # Old binary, missing in insider builds.
     'explorerextensions.dll',
+    # New binary, not available in stable builds yet.
+    'systemtray.dll',
 ]
 
 VERBOSE_OUTPUT = False
